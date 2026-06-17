@@ -4,7 +4,7 @@ pipeline {
         AWS_REGION = 'us-east-1'
         ACCOUNT_ID = '222348769973'
         ECR_REPO   = 'nginx-app'
-        IMAGE_URI  = "${222348769973}.dkr.ecr.${us-east-1}.amazonaws.com/${nginx-app}"
+        IMAGE_URI  = "222348769973.dkr.ecr.$us-east-1.amazonaws.com/$nginx-app"
         CLUSTER    = 'nginx-cluster'
         SERVICE    = 'nginx-service'
     }
